@@ -21,3 +21,8 @@
 
 5. Maven 의존 전이(Transitive Dependencies)
   - 의존 대상이 다시 의존하는 대상까지도 의존 대상에 포함(의존하는 대상뿐만 아니라 의존 대상이 다시 의존하는 대상도 함께 다운로드함)
+
+6. Maven 기본 폴더 구조
+  - src\main\java : 자바 소스 코드 폴더
+  - src\main\resources : 자바 소스 이외의 자원 폴더(XML, 프로퍼티 파일 등)
+  - src\main\webapp : 웹 어플리케이션 기준 폴더(JSP 소스 코드, WEB-INF\web.xml 파일 등)
